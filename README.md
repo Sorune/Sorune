@@ -42,8 +42,9 @@ Here are some of the technologies I've worked with:
 ## 📝 Projects
 
 Check out some of my projects below, where I have applied these technologies to solve real-world problems:
-- [Project 1](https://github.com/yourusername/project1): Brief description of the project.
-- [Project 2](https://github.com/yourusername/project2): Brief description of the project.
+- [ReactProject](https://github.com/Sorune/ReactProject): React를 기반으로 한 프론트엔드 프로젝트.
+- [Movie](https://github.com/Sorune/Movie): SCSS 및 HTML 기반 프로젝트.
+- [Subway](https://github.com/Sorune/subway): HTML을 사용한 간단한 웹 프로젝트.
 
 ## 📫 Let's Connect!
 
