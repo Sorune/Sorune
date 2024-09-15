@@ -2,6 +2,10 @@
 
 Welcome to my GitHub profile! I'm a passionate developer with a keen interest in building scalable and efficient applications. I thrive on solving challenging problems and constantly learning new technologies.
 
+
+## GitHub Stats
+![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sorune&show_icons=true&theme=cobalt)
+
 ## 🚀 Tech Stack
 
 Here are some of the technologies I've worked with:
