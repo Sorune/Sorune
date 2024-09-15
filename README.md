@@ -11,7 +11,8 @@ Welcome to my GitHub profile! I'm a passionate developer with a keen interest in
 Here are some of the technologies I've worked with:
 
 - **Languages**:  
-  ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)    ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  
+  ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)    ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  ![LabVIEW](https://img.shields.io/badge/LabVIEW-F79C42?style=flat-square&logo=national-instruments&logoColor=black)
+
 
 - **Frameworks and Libraries**:  
   ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)     ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)    ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
