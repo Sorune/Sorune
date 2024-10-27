@@ -50,8 +50,15 @@ CSR을 지향하는 React를 활용하여 간단한 프론트엔드까지 구축
 ## 💡 Skills
 
 - **Full-Stack Development**: React와 SpringBoot를 이용한 웹사이트.
-- **Backend Development**: Skilled in creating RESTful APIs with Flask and Spring 를 사용한 웹 프로젝트.
-
+- **Backend Development**: Flask나 SpringBoot를 활용한 Restful API 백엔드 서버 구축.
+- **Frontend Development**: HTML, CSS, Bootstrap, TailwindCSS를 사용한 간단한 웹 프론트엔드 페이지 구축.
+  
+## 📝 Projects
+- [Photogram](https://github.com/Sorune/PhotogramPJ): React와 SpringBoot를 기반으로 한 사진기반 SNS 프로젝트.
+- [ReactProject](https://github.com/Sorune/ReactProject): React를 기반으로 한 게임 종합 커뮤니티 프로젝트.
+- [Movie](https://github.com/Sorune/Movie): SpringMVC와 JSP를 기반으로 한 영화 리뷰 사이트 프로젝트.
+- [Subway](https://github.com/Sorune/subway): Java8과 JSP를 기반으로 한 음식 주문 사이트 프로젝트.
+  
 ## 📫 Let's Connect!
 
 - Email: zksktldl125@naver.com
