@@ -2,7 +2,7 @@
 
 다양한 부하 조건에서 백엔드 성능 최적화에 중점을 둔 개발자입니다.
 DDD와 SRP 원칙을 기반으로 모듈화된 구조 설계를 통해, 확장성과 유지보수성을 갖춘 마이크로서비스를 구축합니다.
-CSR을 지향하는 React를 활용하여 간단한 프론트엔드까지 구축 배포할 수 있습니
+CSR을 지향하는 React를 활용하여 간단한 프론트엔드까지 구축 배포할 수 있습니다.
 
 ## GitHub Stats
 ![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sorune&show_icons=true&theme=cobalt)
