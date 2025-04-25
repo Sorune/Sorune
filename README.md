@@ -12,7 +12,7 @@
 
 ## GitHub Stats
 ![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sorune&show_icons=true&theme=cobalt)
-[![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=sorune)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sorune&langs_count=10&layout=compact&theme=dark)](https://github.com/jogilsang/jogilsang)﻿
 
 ## 🚀 Tech Stack
 
