@@ -12,6 +12,7 @@
 
 ## GitHub Stats
 ![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sorune&show_icons=true&theme=cobalt)
+[![Sorune's GitHub stats](https://github-readme-stats.vercel.app/api?username=sorune)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 🚀 Tech Stack
 
