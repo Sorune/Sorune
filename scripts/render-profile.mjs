@@ -26,10 +26,21 @@ function readPartial(name) {
 function enrichReadme(template, locale) {
   const intro = readPartial(`INTRO.${locale}.md`);
   const stack = readPartial('STACK.md');
+  const aiProject = readPartial(`AI_PUBLIC_PROJECT.${locale}.md`);
 
   let enriched = template.replace(
+    'Public      grid-masonry',
+    'Public      grid-masonry · workspace-ops-public',
+  );
+
+  enriched = enriched.replace(
     '## 🚀 Selected Work',
     `${intro}\n\n## 🚀 Selected Work`,
+  );
+
+  enriched = enriched.replace(
+    /(- \*\*\[grid-masonry\]\([^\n]+\)[^\n]*\n)/,
+    `$1${aiProject}\n`,
   );
 
   enriched = enriched.replace(
@@ -56,6 +67,15 @@ function enrichExperience(template, locale) {
   );
 }
 
+function enrichAiWorkflow(template, locale) {
+  const publicWorkflow = readPartial(`AI_WORKFLOW_PUBLIC.${locale}.md`);
+
+  return template.replace(
+    '## Development History Disclosure',
+    `${publicWorkflow}\n\n## Development History Disclosure`,
+  );
+}
+
 const generatedHeader = '<!-- GENERATED FILE — edit profile/* and run node scripts/render-profile.mjs -->\n\n';
 const outputs = [
   ['README.md', enrichReadme(ko.readme, 'ko')],
@@ -66,8 +86,8 @@ const outputs = [
   ['docs/HOMELAB.en.md', en.homelab],
   ['docs/EXPERIENCE.md', enrichExperience(ko.experience, 'ko')],
   ['docs/EXPERIENCE.en.md', enrichExperience(en.experience, 'en')],
-  ['docs/AI_WORKFLOW.md', ko.aiWorkflow],
-  ['docs/AI_WORKFLOW.en.md', en.aiWorkflow]
+  ['docs/AI_WORKFLOW.md', enrichAiWorkflow(ko.aiWorkflow, 'ko')],
+  ['docs/AI_WORKFLOW.en.md', enrichAiWorkflow(en.aiWorkflow, 'en')]
 ];
 
 for (const [target, template] of outputs) {

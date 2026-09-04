@@ -1,0 +1,1 @@
+- **[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)** — AI-assisted development를 위한 human-gated governance / tooling framework
