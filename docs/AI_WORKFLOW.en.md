@@ -33,6 +33,14 @@ I delegate repetitive boilerplate, test drafts, documentation, and well-bounded 
 
 I intervene directly when state models, abstraction boundaries, performance bottlenecks, or AI-generated structures become unnecessarily complex.
 
+## Public Workflow / Governance
+
+I maintain a public, sanitized reference of the authority, verification, and review model I use for AI-assisted development.
+
+**[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)**
+
+Its central rule is `execution ability != decision authority`: execution, verification, Human Review, acceptance, promotion, and deployment remain separate states and gates.
+
 ## Development History Disclosure
 
 > 🤖 **AI-reviewed from actual development history — not generated from a résumé prompt.**

@@ -33,6 +33,14 @@
 
 복잡한 상태 모델, 추상화 경계, 성능 병목, 또는 AI가 불필요하게 구조를 복잡하게 만드는 부분은 직접 개입해 단순화하거나 다시 설계합니다.
 
+## Public Workflow / Governance
+
+실제로 사용하는 AI-assisted development의 권한·검증·리뷰 모델을 공개 가능한 형태로 일반화해 관리합니다.
+
+**[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)**
+
+핵심 원칙은 `execution ability != decision authority`입니다. 구현 실행과 검증, Human Review, acceptance, promotion, deployment를 서로 다른 상태와 gate로 분리합니다.
+
 ## Development History Disclosure
 
 > 🤖 **AI-reviewed from actual development history — not generated from a résumé prompt.**

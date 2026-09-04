@@ -14,7 +14,7 @@ Web         React · Thymeleaf
 Infra       Docker · Linux · Nginx · Cloudflare
 Observe     Prometheus · Grafana
 
-Public      grid-masonry
+Public      grid-masonry · workspace-ops-public
 Private     PhotoGram · CharaWeave · PaaS Platform
 Homelab     server-ops · Security Guard
 Background  Industrial Control · PLC · LabVIEW · PID
@@ -32,6 +32,7 @@ Areas of interest: **performance optimization · user experience · automation �
 ## 🚀 Selected Work
 
 - **[grid-masonry](https://github.com/Sorune/grid-masonry)** — public TypeScript masonry geometry library · `0.3.0` released
+- **[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)** — human-gated governance and tooling framework for AI-assisted development
 - **PhotoGram** — private Spring photo platform
 - **CharaWeave** — private platform-independent character runtime
 - **PaaS Platform** — private control plane
