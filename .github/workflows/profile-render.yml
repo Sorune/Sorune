@@ -1,0 +1,51 @@
+name: Render bilingual profile
+
+on:
+  push:
+    paths:
+      - 'profile/**'
+      - 'scripts/render-profile.mjs'
+      - '.github/workflows/profile-render.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-render-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Render Korean and English profile pages
+        run: node scripts/render-profile.mjs
+
+      - name: Commit generated pages
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo 'Generated pages are already up to date.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md README.en.md docs/*.md
+          git commit -m 'docs: regenerate bilingual profile'
+
+          git fetch origin "${GITHUB_REF_NAME}"
+          remote_sha="$(git rev-parse "origin/${GITHUB_REF_NAME}")"
+          if [ "${remote_sha}" != "${GITHUB_SHA}" ]; then
+            echo 'Branch advanced while rendering; a newer workflow run will publish the latest generated profile.'
+            exit 0
+          fi
+
+          git push origin "HEAD:${GITHUB_REF_NAME}"

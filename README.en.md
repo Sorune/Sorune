@@ -22,12 +22,12 @@ Background  Industrial Control · PLC · LabVIEW · PID
 build → verify → integrate → operate
 ```
 
-Java / Spring과 TypeScript를 중심으로 **백엔드, 런타임, 플랫폼, 운영 자동화**를 다룹니다.  
-복잡한 기능을 빠르게 쌓기보다 책임과 경계를 나누고, 실제 consumer와 운영 환경에서 검증 가능한 구조를 만드는 것을 선호합니다.
+I build **backend systems, runtimes, platforms, and operational automation**, primarily with Java / Spring and TypeScript.  
+I prefer explicit responsibility boundaries and structures that can be verified by real consumers and operating environments over rapidly accumulating features.
 
-> **재사용성과 자동화, 그리고 안정성**
+> **Reusability, automation, and stability**
 
-관심 분야: **성능 최적화 · 사용자 경험 · 자동화 · 실시간 데이터 처리 · 운영 안정성**
+Areas of interest: **performance optimization · user experience · automation · real-time data processing · operational reliability**
 
 ## 🚀 Selected Work
 
@@ -37,20 +37,19 @@ Java / Spring과 TypeScript를 중심으로 **백엔드, 런타임, 플랫폼, �
 - **PaaS Platform** — private control plane
 - **Security Guard** — private abuse-detection / security-decision service · Go learning
 
-[프로젝트 상세 보기 →](./docs/PROJECTS.md)
+[View project details →](./docs/PROJECTS.en.md)
 
 ## 🏠 Homelab / Operations
 
-Self-hosted 환경에서 deployment, monitoring, storage, backup / restore, alerting, failure recovery를 직접 검증하고 운영합니다.
+I operate a self-hosted environment for deployment, monitoring, storage, backup / restore, alerting, and failure-recovery validation.
 
-[홈랩 상세 보기 →](./docs/HOMELAB.md)
+[View homelab details →](./docs/HOMELAB.en.md)
 
 ## ⚙️ Engineering Background
 
-웹 개발 이전에는 **LabVIEW / PLC 기반 산업 제어 및 관제 시스템**을 개발했고,  
-수영장 관제, HVAC, 스마트팜 제어를 포함해 **18개 현장**에 실제 적용했습니다.
+Before web development, I built **LabVIEW / PLC-based industrial monitoring and control systems** deployed across **18 field sites**, including swimming-pool monitoring, HVAC, and smart-farm automation.
 
-[경력 및 현장 경험 보기 →](./docs/EXPERIENCE.md)
+[View experience →](./docs/EXPERIENCE.en.md)
 
 ## 🛠 Stack
 
@@ -77,10 +76,10 @@ Self-hosted 환경에서 deployment, monitoring, storage, backup / restore, aler
 ---
 
 > 🤖 **AI-reviewed from actual development history — not generated from a résumé prompt.**  
-> AI가 실제 개발 기록을 꽤 오래 봤습니다. 잘된 것뿐 아니라 삽질하고 고친 것도 봤습니다.  
-> 공식 인증은 아니며, 최종 사실 관계와 공개 내용은 제가 책임집니다.
+> AI has reviewed a long trail of real development work — including the parts that failed and had to be repaired.  
+> This is not an official certification; I remain responsible for the factual accuracy and public claims.
 
-[AI와 개발하는 방식 보기 →](./docs/AI_WORKFLOW.md)
+[How I work with AI →](./docs/AI_WORKFLOW.en.md)
 
 ---
 
