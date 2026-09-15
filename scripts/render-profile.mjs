@@ -30,7 +30,7 @@ function enrichReadme(template, locale) {
 
   let enriched = template.replace(
     'Public      grid-masonry',
-    'Public      grid-masonry · workspace-ops-public',
+    'Public      grid-masonry · wsp · workspace-ops-public',
   );
 
   enriched = enriched.replace(
@@ -58,6 +58,15 @@ function enrichReadme(template, locale) {
   return enriched;
 }
 
+function enrichProjects(template, locale) {
+  const publicProjects = readPartial(`PUBLIC_PROJECTS.${locale}.md`);
+
+  return template.replace(
+    '---\n\n## PhotoGram',
+    `---\n\n${publicProjects}\n\n---\n\n## PhotoGram`,
+  );
+}
+
 function enrichExperience(template, locale) {
   const legacy = readPartial(`EXPERIENCE_LEGACY.${locale}.md`);
 
@@ -80,8 +89,8 @@ const generatedHeader = '<!-- GENERATED FILE — edit profile/* and run node scr
 const outputs = [
   ['README.md', enrichReadme(ko.readme, 'ko')],
   ['README.en.md', enrichReadme(en.readme, 'en')],
-  ['docs/PROJECTS.md', ko.projects],
-  ['docs/PROJECTS.en.md', en.projects],
+  ['docs/PROJECTS.md', enrichProjects(ko.projects, 'ko')],
+  ['docs/PROJECTS.en.md', enrichProjects(en.projects, 'en')],
   ['docs/HOMELAB.md', ko.homelab],
   ['docs/HOMELAB.en.md', en.homelab],
   ['docs/EXPERIENCE.md', enrichExperience(ko.experience, 'ko')],

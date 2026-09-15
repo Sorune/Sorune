@@ -1,1 +1,2 @@
-- **[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)** — AI-assisted development를 위한 human-gated governance / tooling framework
+- **[wsp](https://github.com/Sorune/wsp)** — local development workspace를 관찰·투영하는 read-only semantic CLI · `v0.1.0` released
+- **[workspace-ops-public](https://github.com/Sorune/workspace-ops-public)** — AI-assisted development를 위한 human-gated governance reference model
