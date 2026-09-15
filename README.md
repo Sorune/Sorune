@@ -14,7 +14,7 @@ Web         React · Thymeleaf
 Infra       Docker · Linux · Nginx · Cloudflare
 Observe     Prometheus · Grafana
 
-Public      grid-masonry · workspace-ops-public
+Public      grid-masonry · wsp · workspace-ops-public
 Private     PhotoGram · CharaWeave · PaaS Platform
 Homelab     server-ops · Security Guard
 Background  Industrial Control · PLC · LabVIEW · PID
